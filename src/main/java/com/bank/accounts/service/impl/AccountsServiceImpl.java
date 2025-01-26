@@ -6,16 +6,15 @@ import com.bank.accounts.dto.CustomerDto;
 import com.bank.accounts.entity.Accounts;
 import com.bank.accounts.entity.Customer;
 import com.bank.accounts.exception.CustomerAlreadyExistsException;
-import com.bank.accounts.exception.ResourceNotFoundException;
 import com.bank.accounts.mapper.AccountsMapper;
 import com.bank.accounts.mapper.CustomerMapper;
 import com.bank.accounts.repository.AccountsRepository;
 import com.bank.accounts.repository.CustomerRepository;
 import com.bank.accounts.service.IAccountsService;
+import com.bank.exception.ResourceNotFoundException;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDateTime;
 import java.util.Optional;
 import java.util.Random;
 

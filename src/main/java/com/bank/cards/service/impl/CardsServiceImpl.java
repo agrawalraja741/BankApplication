@@ -4,7 +4,7 @@ import com.bank.cards.constants.CardsConstants;
 import com.bank.cards.dto.CardsDto;
 import com.bank.cards.entity.Cards;
 import com.bank.cards.exception.CardAlreadyExistsException;
-import com.bank.cards.exception.ResourceNotFoundException;
+import com.bank.exception.ResourceNotFoundException;
 import com.bank.cards.mapper.CardsMapper;
 import com.bank.cards.repository.CardsRepository;
 import com.bank.cards.service.ICardsService;
